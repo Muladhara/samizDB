@@ -1,0 +1,14 @@
+T__0=1
+T__1=2
+ASSIGN_SYMBOL=3
+QUIT_TOKEN=4
+GET_TOKEN=5
+ID=6
+DATASET_ID=7
+FIELD_SEP=8
+'("'=1
+'")'=2
+':='=3
+'QUIT'=4
+'GET'=5
+'/'=8
