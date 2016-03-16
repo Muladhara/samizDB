@@ -29,7 +29,6 @@ public class MongoAdapter {
     public Dataset loadDatasetById(String id) throws DatasetNotFoundException {
         MongoDatabase mongoDb = this.getMongoClient();
         FindIterable<Document> timeseries = mongoDb.getCollection("timeseries").find(new Document("metadata.id", id));
-
         Document doc = timeseries.first();
 
         if(doc==null)

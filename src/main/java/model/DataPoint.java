@@ -22,6 +22,7 @@ public class DataPoint {
         Set<String> keys = this.cells.keySet();
         StringBuffer sb = new StringBuffer();
         for(String k : keys) {
+            //System.out.println(k + " " + this.cells.get(k));
             if (!this.components.get(k).getRole().equals(ComponentRole.METADATA)) {
                 sb.append(k).append(": ").append(this.cells.get(k)).append("\n");
             }

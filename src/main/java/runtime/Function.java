@@ -1,9 +1,14 @@
 package runtime;
 
-import model.Dataset;
-import persistence.DatasetNotFoundException;
+import model.ComponentType;
 
-public abstract class Function {
+import java.util.List;
 
-    public abstract Dataset getDataset() throws DatasetNotFoundException;
+/*
+@FunctionalInterface
+public interface Function<T>{
+*/
+public abstract class Function<C> {
+
+    public abstract C performOperation();
 }

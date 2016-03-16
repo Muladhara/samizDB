@@ -5,7 +5,7 @@ import runtime.Function;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dataset extends Function {
+public class Dataset extends Function<Dataset> {
 
     private String id;
     private List<DataPoint> dataPoints = new ArrayList<DataPoint>();
@@ -25,8 +25,17 @@ public class Dataset extends Function {
         return sb.toString();
     }
 
+    /*
     @Override
     public Dataset getDataset() {
         return this;
     }
+    */
+
+    @Override
+    public Dataset performOperation() {
+        return this;
+    }
+
+
 }

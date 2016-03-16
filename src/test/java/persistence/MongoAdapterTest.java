@@ -10,6 +10,5 @@ public class MongoAdapterTest {
     public void testLoadDatasetById() throws Exception {
         Dataset ds = MongoAdapter.getInstance().loadDatasetById("fred/all/gdp");
         System.out.println(ds);
-
     }
 }
