@@ -17,6 +17,6 @@ public class LengthScalarOperator extends Function<Integer> {
 
     @Override
     public Integer performOperation() {
-        return this.a.length();
+        return this.a.length()-2;
     }
 }

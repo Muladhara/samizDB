@@ -1,4 +1,4 @@
-package parser;// Generated from E:/Recovery/Codice SamyDB/samizDB-master - Copia/src/main/antlr4\VTL.g4 by ANTLR 4.5.1
+package parser;// Generated from C:/Users/Roberto/Documents/GitHub/samizDB/src/main/antlr4\VTL.g4 by ANTLR 4.5.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -18,6 +18,18 @@ public interface VTLListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitFunctionCommand(VTLParser.FunctionCommandContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code HierarchyCommand}
+	 * labeled alternative in {@link VTLParser#command}.
+	 * @param ctx the parse tree
+	 */
+	void enterHierarchyCommand(VTLParser.HierarchyCommandContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code HierarchyCommand}
+	 * labeled alternative in {@link VTLParser#command}.
+	 * @param ctx the parse tree
+	 */
+	void exitHierarchyCommand(VTLParser.HierarchyCommandContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code StatementCommand}
 	 * labeled alternative in {@link VTLParser#command}.
@@ -63,53 +75,29 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitQuitOperator(VTLParser.QuitOperatorContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code trimScalarOperator}
+	 * Enter a parse tree produced by the {@code listBool}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void enterTrimScalarOperator(VTLParser.TrimScalarOperatorContext ctx);
+	void enterListBool(VTLParser.ListBoolContext ctx);
 	/**
-	 * Exit a parse tree produced by the {@code trimScalarOperator}
+	 * Exit a parse tree produced by the {@code listBool}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void exitTrimScalarOperator(VTLParser.TrimScalarOperatorContext ctx);
+	void exitListBool(VTLParser.ListBoolContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code string}
+	 * Enter a parse tree produced by the {@code majorScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void enterString(VTLParser.StringContext ctx);
+	void enterMajorScalarOperator(VTLParser.MajorScalarOperatorContext ctx);
 	/**
-	 * Exit a parse tree produced by the {@code string}
+	 * Exit a parse tree produced by the {@code majorScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void exitString(VTLParser.StringContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code lengthScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterLengthScalarOperator(VTLParser.LengthScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code lengthScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitLengthScalarOperator(VTLParser.LengthScalarOperatorContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code isnullScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterIsnullScalarOperator(VTLParser.IsnullScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code isnullScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitIsnullScalarOperator(VTLParser.IsnullScalarOperatorContext ctx);
+	void exitMajorScalarOperator(VTLParser.MajorScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code roundScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -135,18 +123,6 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitUppertScalarOperator(VTLParser.UppertScalarOperatorContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code sumScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterSumScalarOperator(VTLParser.SumScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code sumScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitSumScalarOperator(VTLParser.SumScalarOperatorContext ctx);
-	/**
 	 * Enter a parse tree produced by the {@code nvlScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
@@ -159,17 +135,17 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitNvlScalarOperator(VTLParser.NvlScalarOperatorContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code lnScalarOperator}
+	 * Enter a parse tree produced by the {@code matchCharacterScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void enterLnScalarOperator(VTLParser.LnScalarOperatorContext ctx);
+	void enterMatchCharacterScalarOperator(VTLParser.MatchCharacterScalarOperatorContext ctx);
 	/**
-	 * Exit a parse tree produced by the {@code lnScalarOperator}
+	 * Exit a parse tree produced by the {@code matchCharacterScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void exitLnScalarOperator(VTLParser.LnScalarOperatorContext ctx);
+	void exitMatchCharacterScalarOperator(VTLParser.MatchCharacterScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code nrootScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -182,30 +158,6 @@ public interface VTLListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitNrootScalarOperator(VTLParser.NrootScalarOperatorContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code differenceScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterDifferenceScalarOperator(VTLParser.DifferenceScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code differenceScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitDifferenceScalarOperator(VTLParser.DifferenceScalarOperatorContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code orScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterOrScalarOperator(VTLParser.OrScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code orScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitOrScalarOperator(VTLParser.OrScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code powScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -243,6 +195,18 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitLowerScalarOperator(VTLParser.LowerScalarOperatorContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code aggrSum}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterAggrSum(VTLParser.AggrSumContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code aggrSum}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitAggrSum(VTLParser.AggrSumContext ctx);
+	/**
 	 * Enter a parse tree produced by the {@code id}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
@@ -254,30 +218,6 @@ public interface VTLListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitId(VTLParser.IdContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code minusFunc}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterMinusFunc(VTLParser.MinusFuncContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code minusFunc}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitMinusFunc(VTLParser.MinusFuncContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code divisionScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterDivisionScalarOperator(VTLParser.DivisionScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code divisionScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitDivisionScalarOperator(VTLParser.DivisionScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code getOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -291,30 +231,6 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitGetOperator(VTLParser.GetOperatorContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code matchCharactersScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterMatchCharactersScalarOperator(VTLParser.MatchCharactersScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code matchCharactersScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitMatchCharactersScalarOperator(VTLParser.MatchCharactersScalarOperatorContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code ifelseScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterIfelseScalarOperator(VTLParser.IfelseScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code ifelseScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitIfelseScalarOperator(VTLParser.IfelseScalarOperatorContext ctx);
-	/**
 	 * Enter a parse tree produced by the {@code double}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
@@ -327,17 +243,29 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitDouble(VTLParser.DoubleContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code indexofScalarOperator}
+	 * Enter a parse tree produced by the {@code listInt}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void enterIndexofScalarOperator(VTLParser.IndexofScalarOperatorContext ctx);
+	void enterListInt(VTLParser.ListIntContext ctx);
 	/**
-	 * Exit a parse tree produced by the {@code indexofScalarOperator}
+	 * Exit a parse tree produced by the {@code listInt}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void exitIndexofScalarOperator(VTLParser.IndexofScalarOperatorContext ctx);
+	void exitListInt(VTLParser.ListIntContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code isNullScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterIsNullScalarOperator(VTLParser.IsNullScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code isNullScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitIsNullScalarOperator(VTLParser.IsNullScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code modScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -375,18 +303,6 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitBetweenScalarOperator(VTLParser.BetweenScalarOperatorContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code int}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterInt(VTLParser.IntContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code int}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitInt(VTLParser.IntContext ctx);
-	/**
 	 * Enter a parse tree produced by the {@code xorScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
@@ -398,30 +314,6 @@ public interface VTLListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitXorScalarOperator(VTLParser.XorScalarOperatorContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code boolean}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterBoolean(VTLParser.BooleanContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code boolean}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitBoolean(VTLParser.BooleanContext ctx);
-	/**
-	 * Enter a parse tree produced by the {@code logScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void enterLogScalarOperator(VTLParser.LogScalarOperatorContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code logScalarOperator}
-	 * labeled alternative in {@link VTLParser#function}.
-	 * @param ctx the parse tree
-	 */
-	void exitLogScalarOperator(VTLParser.LogScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code substrScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -447,17 +339,17 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitAbsScalarOperator(VTLParser.AbsScalarOperatorContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code truncScalarOperator}
+	 * Enter a parse tree produced by the {@code majorEqualScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void enterTruncScalarOperator(VTLParser.TruncScalarOperatorContext ctx);
+	void enterMajorEqualScalarOperator(VTLParser.MajorEqualScalarOperatorContext ctx);
 	/**
-	 * Exit a parse tree produced by the {@code truncScalarOperator}
+	 * Exit a parse tree produced by the {@code majorEqualScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
 	 */
-	void exitTruncScalarOperator(VTLParser.TruncScalarOperatorContext ctx);
+	void exitMajorEqualScalarOperator(VTLParser.MajorEqualScalarOperatorContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code notScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
@@ -483,6 +375,282 @@ public interface VTLListener extends ParseTreeListener {
 	 */
 	void exitExpScalarOperator(VTLParser.ExpScalarOperatorContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code minorScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterMinorScalarOperator(VTLParser.MinorScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code minorScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitMinorScalarOperator(VTLParser.MinorScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code trimScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterTrimScalarOperator(VTLParser.TrimScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code trimScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitTrimScalarOperator(VTLParser.TrimScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code equalScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterEqualScalarOperator(VTLParser.EqualScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code equalScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitEqualScalarOperator(VTLParser.EqualScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code string}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterString(VTLParser.StringContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code string}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitString(VTLParser.StringContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code lengthScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterLengthScalarOperator(VTLParser.LengthScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code lengthScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitLengthScalarOperator(VTLParser.LengthScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code pattern}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterPattern(VTLParser.PatternContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code pattern}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitPattern(VTLParser.PatternContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code sumScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterSumScalarOperator(VTLParser.SumScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code sumScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitSumScalarOperator(VTLParser.SumScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code listNum}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterListNum(VTLParser.ListNumContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code listNum}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitListNum(VTLParser.ListNumContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code lnScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterLnScalarOperator(VTLParser.LnScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code lnScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitLnScalarOperator(VTLParser.LnScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code differenceScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterDifferenceScalarOperator(VTLParser.DifferenceScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code differenceScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitDifferenceScalarOperator(VTLParser.DifferenceScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code orScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterOrScalarOperator(VTLParser.OrScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code orScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitOrScalarOperator(VTLParser.OrScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code minorEqualScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterMinorEqualScalarOperator(VTLParser.MinorEqualScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code minorEqualScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitMinorEqualScalarOperator(VTLParser.MinorEqualScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code concatScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterConcatScalarOperator(VTLParser.ConcatScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code concatScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitConcatScalarOperator(VTLParser.ConcatScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code minusFunc}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterMinusFunc(VTLParser.MinusFuncContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code minusFunc}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitMinusFunc(VTLParser.MinusFuncContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code divisionScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterDivisionScalarOperator(VTLParser.DivisionScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code divisionScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitDivisionScalarOperator(VTLParser.DivisionScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code ifelseScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterIfelseScalarOperator(VTLParser.IfelseScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code ifelseScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitIfelseScalarOperator(VTLParser.IfelseScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code indexofScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterIndexofScalarOperator(VTLParser.IndexofScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code indexofScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitIndexofScalarOperator(VTLParser.IndexofScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code listStr}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterListStr(VTLParser.ListStrContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code listStr}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitListStr(VTLParser.ListStrContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code int}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterInt(VTLParser.IntContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code int}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitInt(VTLParser.IntContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code boolean}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterBoolean(VTLParser.BooleanContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code boolean}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitBoolean(VTLParser.BooleanContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code logScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterLogScalarOperator(VTLParser.LogScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code logScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitLogScalarOperator(VTLParser.LogScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code truncScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterTruncScalarOperator(VTLParser.TruncScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code truncScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitTruncScalarOperator(VTLParser.TruncScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code inScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void enterInScalarOperator(VTLParser.InScalarOperatorContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code inScalarOperator}
+	 * labeled alternative in {@link VTLParser#function}.
+	 * @param ctx the parse tree
+	 */
+	void exitInScalarOperator(VTLParser.InScalarOperatorContext ctx);
+	/**
 	 * Enter a parse tree produced by the {@code productScalarOperator}
 	 * labeled alternative in {@link VTLParser#function}.
 	 * @param ctx the parse tree
@@ -494,6 +662,18 @@ public interface VTLListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitProductScalarOperator(VTLParser.ProductScalarOperatorContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code createHierarchyRule}
+	 * labeled alternative in {@link VTLParser#hierarchy_rule}.
+	 * @param ctx the parse tree
+	 */
+	void enterCreateHierarchyRule(VTLParser.CreateHierarchyRuleContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code createHierarchyRule}
+	 * labeled alternative in {@link VTLParser#hierarchy_rule}.
+	 * @param ctx the parse tree
+	 */
+	void exitCreateHierarchyRule(VTLParser.CreateHierarchyRuleContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VTLParser#pure}.
 	 * @param ctx the parse tree

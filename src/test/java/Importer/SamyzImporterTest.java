@@ -2,7 +2,7 @@ package Importer;
 
 import importer.SamyzImporter;
 import org.json.simple.parser.ParseException;
-import runtime.OperandNotInMemory;
+import importer.GenericException;
 
 import java.io.IOException;
 
@@ -27,7 +27,7 @@ public class SamyzImporterTest {
     }
 
     @org.junit.Test
-    public void testAddToLocalDBvalid() throws OperandNotInMemory {
+    public void testAddToLocalDBvalid() throws GenericException {
         String path = "C:Users\\Roberto\\Documents\\test.json";
         try {
             System.out.println(importer.addToLocalDB(path).toString());

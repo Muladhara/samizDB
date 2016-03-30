@@ -1,16 +1,14 @@
 package runtime;
 
 import console.ConsoleManager;
+import importer.GenericException;
 import importer.SamyzImporter;
 import model.Dataset;
 import org.json.simple.parser.ParseException;
 import persistence.DatasetNotFoundException;
 import persistence.MongoAdapter;
 
-import javax.xml.crypto.Data;
-import java.io.Console;
 import java.io.IOException;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,7 +22,7 @@ public class GetOperator extends Function<Dataset> {
     }
 
     //@Override
-    public Dataset getDataset() throws DatasetNotFoundException, OperandNotInMemory {
+    public Dataset getDataset() throws DatasetNotFoundException, GenericException {
         Dataset ds = new Dataset(this.datasetId);
 
         Pattern p = Pattern.compile("http:.*");
@@ -50,7 +48,7 @@ public class GetOperator extends Function<Dataset> {
                     e.printStackTrace();
                 } catch (ParseException e) {
                     e.printStackTrace();
-                } catch(OperandNotInMemory e){
+                } catch(GenericException e){
                     ConsoleManager.printMessage("The file at the specified path is invalid or not present");
                     ds = null;
                 }
@@ -71,8 +69,8 @@ public class GetOperator extends Function<Dataset> {
             return getDataset();
         } catch (DatasetNotFoundException e) {
             e.printStackTrace();
-        } catch (OperandNotInMemory operandNotInMemory) {
-            operandNotInMemory.printStackTrace();
+        } catch (GenericException genericException) {
+            genericException.printStackTrace();
         }
         return null;
     }

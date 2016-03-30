@@ -15,7 +15,6 @@ import model.DataPoint;
 import model.Dataset;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import runtime.OperandNotInMemory;
 
 /**
  * Created by Roberto on 24/02/2016.
@@ -43,14 +42,13 @@ public class SamyzImporter {
         return connection;
     }
 
-    public static BufferedReader getBuffer(HttpURLConnection connection) throws OperandNotInMemory {
+    public static BufferedReader getBuffer(HttpURLConnection connection) throws GenericException {
         BufferedReader read = null;
         try{
             InputStreamReader input = new InputStreamReader(connection.getInputStream());
-            ConsoleManager.printMessage("input: " + input.toString());
             read = new BufferedReader(input);
         }catch(Exception e){
-            throw new OperandNotInMemory("Cannot read from the specified source");
+            throw new GenericException("Cannot read from the specified source");
         }
 
         return read;
@@ -170,14 +168,14 @@ public class SamyzImporter {
         return ds;
     }
 
-    public static Dataset addToLocalDB(String inserted) throws IOException, org.json.simple.parser.ParseException, OperandNotInMemory {
+    public static Dataset addToLocalDB(String inserted) throws IOException, org.json.simple.parser.ParseException, GenericException {
         Dataset ds = new Dataset(inserted);
         String path = inserted;
         BufferedReader br = null;
         try{
             br = new BufferedReader(new FileReader(path));
         }catch(Exception e){
-            throw new OperandNotInMemory("Cannot read from the specified source");
+            throw new GenericException("Cannot read from the specified source");
         }
 
         return insertDataPoints(ds,br);
@@ -206,7 +204,7 @@ public class SamyzImporter {
         BufferedReader read = null;
         try {
             read = getBuffer(connection);
-        } catch (OperandNotInMemory operandNotInMemory) {
+        } catch (GenericException genericException) {
             ConsoleManager.printMessage("Cannot read from the specified source");
         }
         if(read == null){
