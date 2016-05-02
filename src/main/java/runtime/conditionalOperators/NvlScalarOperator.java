@@ -20,4 +20,8 @@ public class NvlScalarOperator extends Function<Object> {
         else
             return this.a;
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
 }

@@ -19,4 +19,9 @@ public class LnScalarOperator extends Function<Double> {
     public Double performOperation() {
         return Math.log(Double.parseDouble(this.a));
     }
+
+    public String toString(){
+        return this.a;
+    }
+
 }

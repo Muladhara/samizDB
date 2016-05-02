@@ -31,4 +31,9 @@ public class RoundScalarOperator extends Function<Double> {
         return round(Double.parseDouble(this.b), Integer.parseInt(this.a));
     }
 
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
+
 }

@@ -25,4 +25,9 @@ public class DivisionScalarOperator extends Function<Double> {
         return Double.parseDouble(this.b) / Double.parseDouble(this.a);
     }
 
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
+
 }

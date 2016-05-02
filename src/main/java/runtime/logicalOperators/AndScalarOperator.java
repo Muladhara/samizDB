@@ -20,4 +20,8 @@ public class AndScalarOperator extends Function<Boolean> {
     public Boolean performOperation() {
         return Boolean.parseBoolean(this.b) & Boolean.parseBoolean(this.a);
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
 }

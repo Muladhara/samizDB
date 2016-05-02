@@ -20,4 +20,9 @@ public class NrootScalarOperator extends Function<Double> {
     public Double performOperation() {
         return Math.pow(Double.parseDouble(this.b), 1/(Double.parseDouble(this.a)));
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
 }

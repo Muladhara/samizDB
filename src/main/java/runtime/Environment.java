@@ -14,6 +14,9 @@ public class Environment {
     LinkedList<String> operands = new LinkedList<>();
     Map<String, HierarchyRule> rules = new HashMap<>();
 
+    public Map<String, Function> getResultFunctions () { return this.resultFunctions;}
+
+    public LinkedList<String> getOperands(){return this.operands;}
 
     public void setResultFunction(String ctx, Function f) {
         this.resultFunctions.put(ctx, f);
@@ -28,8 +31,6 @@ public class Environment {
     public void setOperand(String s){
         this.operands.addFirst(s);
     }
-
-    public String getLastOperand(){ return this.operands.getLast();}
 
     public void clearOperands(){ this.operands.clear();}
 

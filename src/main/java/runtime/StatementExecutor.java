@@ -20,6 +20,8 @@ public class StatementExecutor {
         this.env = env;
     }
 
+    public Environment getEnvironment(){return this.env;}
+
     public void executeStatementFromString(String cmdString) {
 
         try {

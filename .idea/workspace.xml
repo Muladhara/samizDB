@@ -2,85 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b79143-3e85-4139-b6d6-277f40fd6898" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/importer/GenericException.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/runtime/OperandNotInMemory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$MatchCharactersScalarOperatorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/runtime/OperandNotInMemory.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/importer/SamyzImporter.class" afterPath="$PROJECT_DIR$/target/classes/importer/SamyzImporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLBaseListener.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLBaseListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Dataset.class" afterPath="$PROJECT_DIR$/target/classes/model/Dataset.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLLexer.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLLexer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLListener.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$AbsScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$AbsScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$AndScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$AndScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$AggrSumContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$AggrSumContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$BetweenScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$BetweenScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$BooleanContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$BooleanContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$CommandContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$CommandContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ConcatScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ConcatScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$CreateHierarchyRuleContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$CreateHierarchyRuleContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$DifferenceScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$DifferenceScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$DivisionScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$DivisionScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$DoubleContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$DoubleContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$EqualScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$EqualScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ExpScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ExpScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$FunctionCommandContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$FunctionCommandContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$FunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$FunctionContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$GetOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$GetOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$Hierarchy_ruleContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$Hierarchy_ruleContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$IdContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$IdContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$IfelseScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$IfelseScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$InScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$InScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$IndexofScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$IndexofScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$IntContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$IntContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$IsnullScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$IsnullScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$LengthScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$LengthScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ListIntContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ListIntContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ListNumContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ListNumContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ListStrContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ListStrContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$LnScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$LnScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$LogScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$LogScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$LowerScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$LowerScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$MajorEqualScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$MajorEqualScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$MinorEqualScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$MinorEqualScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$MinorScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$MinorScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$MinusFuncContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$MinusFuncContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ModScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ModScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$NotScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$NotScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$NrootScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$NrootScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$NvlScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$NvlScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$OrScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$OrScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ParFuncContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ParFuncContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$PowScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$PowScalarOperatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$PatternContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$PatternContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$ProductScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$ProductScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$PureCommandContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$PureCommandContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$PureContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$PureContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$QuitOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$QuitOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$RoundScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$RoundScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$StatementCommandContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$StatementCommandContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$StatementContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$StatementContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$StringContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$StringContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$SubstrScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$SubstrScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$SumScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$SumScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$TrimScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$TrimScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$TruncScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$TruncScalarOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$UppertScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$UppertScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser$XorScalarOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser$XorScalarOperatorContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parser/VTLParser.class" afterPath="$PROJECT_DIR$/target/classes/parser/VTLParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/persistence/MongoAdapter.class" afterPath="$PROJECT_DIR$/target/classes/persistence/MongoAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/AntlrVTLListener.class" afterPath="$PROJECT_DIR$/target/classes/runtime/AntlrVTLListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/Environment.class" afterPath="$PROJECT_DIR$/target/classes/runtime/Environment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/Function.class" afterPath="$PROJECT_DIR$/target/classes/runtime/Function.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/GetOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/GetOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/Hierarchy/HierarchyRule.class" afterPath="$PROJECT_DIR$/target/classes/runtime/Hierarchy/HierarchyRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/StatementExecutor.class" afterPath="$PROJECT_DIR$/target/classes/runtime/StatementExecutor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/conditionalOperators/NvlScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/conditionalOperators/NvlScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/AndScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/AndScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/EqualScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/EqualScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MajorEqualScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MajorEqualScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MajorScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MajorScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MinorEqualScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MinorEqualScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MinorScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/MinorScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/NotScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/NotScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/OrScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/OrScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/XorScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/logicalOperators/XorScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/AbsScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/AbsScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/DifferenceScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/DifferenceScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/DivisionScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/DivisionScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/ExpScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/ExpScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/LnScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/LnScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/LogScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/LogScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/ModScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/ModScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/NrootScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/NrootScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/PowerScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/PowerScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/ProductScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/ProductScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/RoundScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/RoundScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/SumScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/SumScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/TruncScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/mathematicalOperators/TruncScalarOperator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/stringOperators/LengthScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/stringOperators/LengthScalarOperator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Importer/SamyzImporterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Importer/SamyzImporterTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/validationOperators/BetweenScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/validationOperators/BetweenScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/validationOperators/InScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/validationOperators/InScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/runtime/validationOperators/MatchCharactersScalarOperator.class" afterPath="$PROJECT_DIR$/target/classes/runtime/validationOperators/MatchCharactersScalarOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VTLEngine.iml" afterPath="$PROJECT_DIR$/VTLEngine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/VTL.tokens" afterPath="$PROJECT_DIR$/gen/VTL.tokens" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/VTLBaseListener.java" afterPath="$PROJECT_DIR$/gen/VTLBaseListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/VTLLexer.java" afterPath="$PROJECT_DIR$/gen/VTLLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/VTLLexer.tokens" afterPath="$PROJECT_DIR$/gen/VTLLexer.tokens" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/VTLListener.java" afterPath="$PROJECT_DIR$/gen/VTLListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/VTLParser.java" afterPath="$PROJECT_DIR$/gen/VTLParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/antlr4/VTL.g4" afterPath="$PROJECT_DIR$/src/main/antlr4/VTL.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java" afterPath="$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/VTL.tokens" afterPath="$PROJECT_DIR$/src/main/java/parser/VTL.tokens" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/VTLBaseListener.java" afterPath="$PROJECT_DIR$/src/main/java/parser/VTLBaseListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/VTLLexer.java" afterPath="$PROJECT_DIR$/src/main/java/parser/VTLLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/VTLLexer.tokens" afterPath="$PROJECT_DIR$/src/main/java/parser/VTLLexer.tokens" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/VTLListener.java" afterPath="$PROJECT_DIR$/src/main/java/parser/VTLListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/VTLParser.java" afterPath="$PROJECT_DIR$/src/main/java/parser/VTLParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/Environment.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/Environment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/Function.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/Function.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/GetOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/GetOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/StatementExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/StatementExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/NvlScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/NvlScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/AndScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/AndScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/EqualScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/EqualScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorEqualScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorEqualScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorEqualScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorEqualScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/NotScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/NotScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/OrScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/OrScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/XorScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/XorScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/AbsScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/AbsScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DifferenceScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DifferenceScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DivisionScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DivisionScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ExpScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ExpScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LnScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LnScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LogScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LogScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ModScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ModScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/NrootScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/NrootScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/PowerScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/PowerScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ProductScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ProductScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/RoundScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/RoundScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/SumScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/SumScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/TruncScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/TruncScalarOperator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/stringOperators/LengthScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/stringOperators/LengthScalarOperator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Importer/SamyzImporterTest.java" afterPath="$PROJECT_DIR$/src/test/java/Importer/SamyzImporterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java" afterPath="$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java" />
     </list>
     <ignored path="VTLEngine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,14 +149,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EnvironmentDeserializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="VTL.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/antlr4/VTL.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="180">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13781#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,38 +174,8 @@
       <file leaf-file-name="AntlrVTLListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9464567">
-              <caret line="323" column="37" selection-start-line="323" selection-start-column="37" selection-end-line="323" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AggrSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/runtime/aggrFunc/AggrSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dataset.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Dataset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HierarchyRule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Hierarchy/HierarchyRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -158,9 +184,72 @@
       <file leaf-file-name="Environment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Environment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="150">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runtime/typeFunction/IntFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoubleFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runtime/typeFunction/DoubleFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VTLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/VTLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7065">
+              <caret line="538" column="0" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetOperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runtime/GetOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SamyzImporter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3615">
+              <caret line="241" column="10" selection-start-line="241" selection-start-column="10" selection-end-line="241" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2289#2304#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,24 +277,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/console/StatementExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/HierarchyRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/Hierarchy/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/Hierarchy/HierarchyRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/aggrFunc/AggrSum.java" />
+        <option value="$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class" />
+        <option value="$PROJECT_DIR$/src/main/antlr4/VTL.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/WebMainSocketThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/WebMainSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/WebServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/StatementExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Dataset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/DataPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/StringFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/Function.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/GetOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/Variable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/console/ConsoleManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/persistence/MongoAdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/UndefinedVariableException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SocketServer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/AndScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/TruncScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/RoundScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/Function.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/EnvironmentSerialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ProductScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/GetOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WebMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/stringOperators/LengthScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/TruncScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/SumScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/RoundScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/PowerScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/NrootScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ModScalarOperator.java" />
@@ -215,30 +308,26 @@
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DivisionScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DifferenceScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/AbsScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/SumScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/stringOperators/InvalidOperandException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/VTLParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/VTLBaseListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/IfScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/stringOperators/LengthScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/EqualScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorThenScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorEqualScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorEqualScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/AndScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/EqualScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorEqualScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorEqualScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/NotScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/OrScalarOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/logicalOperators/XorScalarOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/NvlScalarOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/HierarchyRule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/Hierarchy/Condition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/Hierarchy/HierarchyRule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/Environment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java" />
-        <option value="$PROJECT_DIR$/src/main/antlr4/VTL.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/typeFunction/IntFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/typeFunction/DoubleFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runtime/Environment.java" />
         <option value="$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runtime/aggrFunc/AggrSum.java" />
       </list>
     </option>
   </component>
@@ -255,10 +344,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="2" />
-    <option name="width" value="1300" />
-    <option name="height" value="773" />
+    <option name="x" value="50" />
+    <option name="y" value="-4" />
+    <option name="width" value="1316" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -286,7 +375,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,7 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,7 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,29 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -366,10 +432,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -377,7 +439,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -396,10 +458,6 @@
               <option name="myItemId" value="runtime" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validationOperators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -407,7 +465,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -427,7 +485,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stringOperators" />
+              <option name="myItemId" value="typeFunction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,183 +495,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathematicalOperators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicalOperators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hierarchy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conditionalOperators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggrFunc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -639,33 +521,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VTLEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -691,7 +547,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VTLEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -713,7 +595,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samizDB" />
+              <option name="myItemId" value="VTL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -724,10 +606,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Github/PortableGit_cf76fc1621ac41ad4fe86c420ab5ff403f1808b9/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="$PROJECT_DIR$/src/main/antlr4/VTL.g4::/auto-gen" value="false" />
     <property name="$PROJECT_DIR$/src/main/antlr4/VTL.g4::/gen-listener" value="true" />
     <property name="$PROJECT_DIR$/src/main/antlr4/VTL.g4::/gen-visitor" value="false" />
@@ -737,7 +620,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last.edited.regexp" value="999t&amp;5%" />
+    <property name="last.edited.regexp" value="" />
+    <property name="SearchEverywhereHistoryKey" value="ParseT&#9;FILE&#9;jar:///home/roberto/.m2/repository/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -746,9 +631,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Roberto\Documents\GitHub\samizDB\src\main\java\parser" />
       <recent name="$PROJECT_DIR$/src/main/java/parser" />
+      <recent name="C:\Users\Roberto\Documents\GitHub\samizDB\src\main\java\parser" />
       <recent name="$PROJECT_DIR$/src/main/antlr4" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -759,7 +647,7 @@
       <recent name="$PROJECT_DIR$/src/main/antlr4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.WebMain">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -775,30 +663,74 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MongoAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WebMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="WebMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VTLEngine" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WebMainSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="persistence.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="VTLEngine" />
+      <option name="MAIN_CLASS_NAME" value="runtime.WebMainSocket" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="persistence" />
-      <option name="MAIN_CLASS_NAME" value="persistence.MongoAdapterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="VTLEngine" />
       <envs />
-      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="runtime.WebServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VTLEngine" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SocketServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VTLEngine" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -809,31 +741,21 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -843,27 +765,15 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -993,59 +903,12 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VTLEngine" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1104,134 +967,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VTLEngine" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VTLEngine" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VTLEngine" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VTLEngine" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VTLEngine" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MongoAdapterTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WebMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WebMainSocket" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WebServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SocketServer" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MongoAdapterTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.WebMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SocketServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WebServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WebMainSocket" />
       </list>
     </recent_temporary>
   </component>
@@ -1240,7 +989,9 @@
       <projects_view />
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1249,6 +1000,7 @@
       <changelist id="06b79143-3e85-4139-b6d6-277f40fd6898" name="Default" comment="" />
       <created>1453475509932</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1453475509932</updated>
     </task>
     <servers />
@@ -1286,33 +1038,35 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="2" width="1300" height="773" extended-state="0" />
+    <frame x="50" y="-4" width="1316" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249258" sideWeight="0.49713877" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.4914163" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257066" sideWeight="0.5071531" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20266272" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18380062" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32238805" sideWeight="0.49284694" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16847827" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16793314" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3210059" sideWeight="0.49284694" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16793314" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3683432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.4914163" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22848664" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1337,127 +1091,127 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>38</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>39</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>41</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>48</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>50</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>52</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>53</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>54</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>137</line>
+          <line>155</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>138</line>
+          <line>156</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>139</line>
+          <line>157</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>140</line>
+          <line>158</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>141</line>
+          <line>159</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>142</line>
+          <line>160</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>99</line>
+          <line>117</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>100</line>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>324</line>
+          <line>342</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>325</line>
+          <line>343</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>326</line>
+          <line>344</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>328</line>
+          <line>346</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>327</line>
+          <line>345</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
@@ -1475,31 +1229,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>337</line>
+          <line>355</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>338</line>
+          <line>356</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>339</line>
+          <line>357</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>340</line>
+          <line>358</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>342</line>
+          <line>360</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
@@ -1564,242 +1318,98 @@
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>103</line>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>387</line>
+          <line>405</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>388</line>
+          <line>406</line>
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>389</line>
+          <line>407</line>
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>390</line>
+          <line>408</line>
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>391</line>
+          <line>409</line>
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>375</line>
+          <line>393</line>
           <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>376</line>
+          <line>394</line>
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>377</line>
+          <line>395</line>
           <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>378</line>
+          <line>396</line>
           <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>379</line>
+          <line>397</line>
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>349</line>
+          <line>367</line>
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>350</line>
+          <line>368</line>
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>351</line>
+          <line>369</line>
           <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>352</line>
+          <line>370</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>353</line>
+          <line>371</line>
           <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
@@ -1829,13 +1439,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>67</line>
+          <line>85</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>68</line>
+          <line>86</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
@@ -1845,9 +1455,369 @@
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/GetOperator.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/GetOperator.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WebMain.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WebMain.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WebMain.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WebMain.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>337</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>208</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>210</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>212</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>98</line>
+          <line>116</line>
           <properties class="runtime.AntlrVTLListener" method="exitId" />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -1859,13 +1829,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>348</line>
+          <line>366</line>
           <properties class="runtime.AntlrVTLListener" method="exitNvlScalarOperator" />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
-          <line>66</line>
+          <line>82</line>
           <properties class="runtime.AntlrVTLListener" method="enterGetOperator" />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
@@ -1875,8 +1845,14 @@
           <properties class="runtime.GetOperator" method="performOperation" />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java</url>
+          <line>77</line>
+          <properties class="runtime.AntlrVTLListener" method="enterQuitOperator" />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="117" />
+      <option name="time" value="224" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1885,390 +1861,436 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.148148">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/persistence/DatasetNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="171">
+          <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/persistence/MongoAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.703252">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="171">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/DataPoint.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.8.1/py4j-0.8.1.jar!/py4j/reflection/ReflectionEngine.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.101626016">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="201">
+          <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.8.1/py4j-0.8.1.jar!/py4j/Gateway.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="124">
+          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.8.1/py4j-0.8.1.jar!/py4j/commands/AbstractCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76609445">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Double.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.8.1/py4j-0.8.1.jar!/py4j/commands/CallCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="315">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/TruncScalarOperator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.8.1/py4j-0.8.1.jar!/py4j/GatewayConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="124">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/RoundScalarOperator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.8.1/py4j-0.8.1.jar!/py4j/reflection/MethodInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="124">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ProductScalarOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/stringOperators/TrimScalarOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/PowerScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/NrootScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ModScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LogScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LnScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ExpScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DivisionScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DifferenceScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/AbsScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36842105">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/SumScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/importer/GenericException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24186991">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/stringOperators/InvalidOperandException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Boolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/IfScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/EqualScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorEqualScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorEqualScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/AndScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21052632">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/NotScalarOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18421052">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/runtime/stringOperators/LengthScalarOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36842105">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/TruncScalarOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="435">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/AbsScalarOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="44" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="225">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DifferenceScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/DivisionScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ExpScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LogScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/NrootScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/PowerScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/RoundScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/ModScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/LnScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/BetweenScalarOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57894737">
-          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+        <state relative-caret-position="264">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1183#1184#0" expanded="false" />
-            <element signature="e#1221#1222#0" expanded="false" />
+            <element signature="e#1456#1457#0" expanded="false" />
+            <element signature="e#1515#1516#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/MatchCharactersScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/validationOperators/InScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/mathematicalOperators/SumScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#745#746#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/AndScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#550#551#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/EqualScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorEqualScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MajorScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorEqualScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/MinorScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/NotScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/XorScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/logicalOperators/OrScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/NvlScalarOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6910569">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/conditionalOperators/IfScalarOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Hierarchy/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/VTL.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44918698">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/console/ConsoleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.814815">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/StatementExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6392573">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/VTLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="526" column="0" selection-start-line="526" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/GetOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="189">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Dataset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/aggrFunc/AggrSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/StatementExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="279">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Environment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/EnvironmentDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Hierarchy/HierarchyRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1020">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/antlr4/VTL.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="180">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/VTLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7065">
+          <caret line="538" column="0" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/GetOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/importer/SamyzImporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3615">
+          <caret line="241" column="10" selection-start-line="241" selection-start-column="10" selection-end-line="241" selection-end-column="10" />
           <folding>
-            <element signature="e#0#13781#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2289#2304#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/typeFunction/IntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/typeFunction/DoubleFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runtime/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/runtime/AntlrVTLListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9464567">
-          <caret line="323" column="37" selection-start-line="323" selection-start-column="37" selection-end-line="323" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2327,6 +2349,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>VTLEngine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

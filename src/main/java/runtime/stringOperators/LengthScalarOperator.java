@@ -12,11 +12,15 @@ public class LengthScalarOperator extends Function<Integer> {
     private String a;
 
     public LengthScalarOperator (String a) {
-        this.a = a;
+        this.a = a.replaceAll("\"","");
     }
 
     @Override
     public Integer performOperation() {
-        return this.a.length()-2;
+        return this.a.length();
+    }
+
+    public String toString(){
+        return this.a.replaceAll("\"","");
     }
 }

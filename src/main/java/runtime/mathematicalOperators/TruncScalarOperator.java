@@ -31,4 +31,9 @@ public class TruncScalarOperator extends Function<Double> {
     public Double performOperation() {
         return trunc(Double.parseDouble(this.b),Double.parseDouble(this.a));
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
 }

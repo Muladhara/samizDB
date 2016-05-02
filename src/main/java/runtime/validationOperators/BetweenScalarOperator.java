@@ -40,4 +40,9 @@ public class BetweenScalarOperator extends Function<Boolean> {
         else
             return false;
     }
+
+    public String toString(){
+        return this.a + "&" + this.b + "&" + this.c;
+    }
+
 }

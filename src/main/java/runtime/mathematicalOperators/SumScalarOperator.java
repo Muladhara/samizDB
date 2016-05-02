@@ -8,13 +8,14 @@ import persistence.DatasetNotFoundException;
 import persistence.MongoAdapter;
 import runtime.Function;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by Roberto on 23/02/2016.
  */
 
-public class SumScalarOperator extends Function<Double> {
+public class SumScalarOperator extends Function<Double> implements Serializable {
 
     private String a,b;
 
@@ -26,6 +27,10 @@ public class SumScalarOperator extends Function<Double> {
     @Override
     public Double performOperation() {
             return (Double.parseDouble(this.b)) + Double.parseDouble(this.a);
+    }
+
+    public String toString(){
+        return this.a + "&" + this.b;
     }
 
 

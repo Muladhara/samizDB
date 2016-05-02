@@ -17,4 +17,8 @@ public class MajorScalarOperator extends Function<Boolean> {
     public Boolean performOperation() {
         return Double.parseDouble(this.b) > Double.parseDouble(this.a);
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
 }

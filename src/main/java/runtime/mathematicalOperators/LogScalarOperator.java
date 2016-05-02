@@ -20,4 +20,9 @@ public class LogScalarOperator extends Function<Double> {
     public Double performOperation() {
         return Math.log(Double.parseDouble(this.b)) / Math.log(Double.parseDouble(this.a));
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
 }

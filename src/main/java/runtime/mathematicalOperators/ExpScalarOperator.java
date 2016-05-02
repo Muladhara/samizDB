@@ -19,4 +19,9 @@ public class ExpScalarOperator extends Function<Double> {
     public Double performOperation() {
         return Math.exp(Double.parseDouble(this.a));
     }
+
+    public String toString(){
+        return this.a;
+    }
+
 }

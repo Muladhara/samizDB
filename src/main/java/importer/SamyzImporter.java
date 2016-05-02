@@ -1,6 +1,8 @@
 package importer;
 import java.io.*;
 import java.net.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.io.IOException;
 
@@ -131,7 +133,7 @@ public class SamyzImporter {
         return addToLocalDB(inserted, temp);
     }
 
-    public static Dataset insertDataPoints(Dataset ds, BufferedReader br) throws IOException, ParseException {
+    public static Dataset insertDataPoints(Dataset ds, BufferedReader br, File temp) throws IOException, ParseException {
         if(br==null)
             return null;
         DataPoint dataPoint = null;
@@ -140,6 +142,7 @@ public class SamyzImporter {
 
         JSONParser parser = new JSONParser();
         JSONObject obj = (JSONObject)parser.parse(br);
+//        JSONObject obj = (JSONObject) parser.parse(new String(Files.readAllBytes(Paths.get("/tmp/html.json"))));
         JSONArray data = (JSONArray)obj.get("data");
         Iterator<JSONObject> iterator = data.iterator();
 
@@ -165,6 +168,14 @@ public class SamyzImporter {
         }
         br.close();
 
+        if(temp!=null){
+            try{
+                temp.delete();
+            }catch(Exception r){
+                r.printStackTrace();
+            }
+        }
+
         return ds;
     }
 
@@ -178,7 +189,7 @@ public class SamyzImporter {
             throw new GenericException("Cannot read from the specified source");
         }
 
-        return insertDataPoints(ds,br);
+        return insertDataPoints(ds,br, null);
 
     }
 
@@ -187,7 +198,24 @@ public class SamyzImporter {
         inserted = inserted.replace("/","-");
         Dataset ds = new Dataset(inserted);
         BufferedReader br = new BufferedReader(new FileReader(temp));
-        return insertDataPoints(ds,br);
+        return insertDataPoints(ds,br, temp);
+    }
+
+    public static Dataset addToLocalDB2(String html, String inserted) throws ParseException, IOException {
+        PrintWriter out = new PrintWriter( "/tmp/html.json" );
+        out.println( html );
+        Dataset ds = new Dataset(inserted);
+        File f = new File("/tmp/html.json");
+        RandomAccessFile ra = new RandomAccessFile(f, "rw");
+        ra.seek(0);
+        ra.write("{\"data\": [".getBytes());
+        ra.seek(ra.length());
+        ra.write("]}".getBytes());
+        ra.close();
+        //BufferedWriter bw =  new BufferedWriter(new FileWriter(f));
+        //System.out.println(f.toString() +"  "+ f);
+        BufferedReader br = new BufferedReader(new FileReader(f));
+        return insertDataPoints(ds,br, f);
     }
 
     public static Dataset createDBfromURL(String urlString) throws IOException, org.json.simple.parser.ParseException {
@@ -211,6 +239,7 @@ public class SamyzImporter {
             return null;
         }
         String html = getHTML(read);
+        //return addToLocalDB2(html, urlString);
         return createDB(html,urlString);
     }
 

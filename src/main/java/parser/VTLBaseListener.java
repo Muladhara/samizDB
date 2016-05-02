@@ -1,4 +1,4 @@
-package parser;// Generated from C:/Users/Roberto/Documents/GitHub/samizDB/src/main/antlr4\VTL.g4 by ANTLR 4.5.1
+package parser;// Generated from /home/roberto/Scrivania/VTL/src/main/antlr4/VTL.g4 by ANTLR 4.5.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;

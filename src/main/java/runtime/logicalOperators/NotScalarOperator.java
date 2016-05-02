@@ -16,4 +16,8 @@ public class NotScalarOperator extends Function<Boolean> {
     public Boolean performOperation() {
         return !(Boolean.parseBoolean(this.a));
     }
+
+    public String toString(){
+        return this.a ;
+    }
 }

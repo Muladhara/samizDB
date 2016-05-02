@@ -42,8 +42,11 @@ public class InScalarOperator extends Function<Boolean> {
     private Boolean inNumber(String a, double v) {
         String s = a.substring(1, a.length()-1);
         LinkedList<Double> list = new LinkedList<>();
-        for(String element : s.split(",")){
-            list.addFirst(Double.parseDouble(element));
+        if(s.length()!=0){
+            for(String element : s.split(",")){
+                if(element!=null)
+                    list.addFirst(Double.parseDouble(element));
+            }
         }
         if(list.contains(v))
             return true;
@@ -62,6 +65,11 @@ public class InScalarOperator extends Function<Boolean> {
         else
             return false;
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
 
 
 }

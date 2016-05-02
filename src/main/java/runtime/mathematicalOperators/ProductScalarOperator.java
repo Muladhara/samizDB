@@ -21,6 +21,8 @@ public class ProductScalarOperator extends Function<Double> {
         return Double.parseDouble(a) * Double.parseDouble(b);
     }
 
+    public String toString(){return this.a + "*"+ this.b;}
+
 
 }
 

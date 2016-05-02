@@ -75,4 +75,8 @@ public class GetOperator extends Function<Dataset> {
         return null;
     }
 
+    public String toString(){
+        return this.datasetId;
+    }
+
 }

@@ -24,6 +24,8 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class AntlrVTLListener extends VTLBaseListener {
@@ -40,17 +42,31 @@ public class AntlrVTLListener extends VTLBaseListener {
         if (toAssign != null) {
             //Variable v = new Variable(ctx.getChild(0).getText(), this.env.getResultfunction(ctx.getChild(2).getText()));
             this.env.setResultFunction(ctx.getChild(0).getText(), this.env.getResultfunction(ctx.getChild(2).getText()));
-        }
+            this.env.getResultFunctions().remove(ctx.getChild(2).getText());
+        }/*
+        else{
+            Object scalar = this.env.getOperand();
+            if(ctx.getChild(2).getChild(0)!=null && ctx.getChild(2).getChild(0).toString().equals(scalar.toString()) ){
+                this.env.setResultFunction(ctx.getChild(0).getText(),  (Function) scalar);
+            }
+        }*/
     }
 
     @Override
     public void exitFunctionCommand(VTLParser.FunctionCommandContext ctx) {
         {
             Function result = this.env.getResultfunction(ctx.getChild(0).getText());
+            Pattern p = Pattern.compile("[A-Za-z_][a-zA-Z0-9_-]*");
             this.env.clearOperands();
             if (result!=null) {
-                if(this.env.getResultfunction(ctx.getChild(0).getText()).performOperation()!= null)
-                    ConsoleManager.printMessage(this.env.getResultfunction(ctx.getChild(0).getText()).performOperation().toString());
+                Object functionReturn = this.env.getResultfunction(ctx.getChild(0).getText()).performOperation();
+                if(functionReturn!= null) {
+                    ConsoleManager.printMessage(functionReturn.toString());
+                    Matcher matchId = p.matcher(ctx.getChild(0).getText());
+                    if(!matchId.find() || ctx.getChild(0).getText().indexOf("GET") == 0){
+                        this.env.getResultFunctions().remove(ctx.getChild(0).getText());
+                    }
+                }
                 else
                     ConsoleManager.printMessage("Cannot perform operation");
             }
@@ -65,6 +81,8 @@ public class AntlrVTLListener extends VTLBaseListener {
 
     @Override
     public void enterGetOperator(VTLParser.GetOperatorContext ctx) {
+        //Pattern p = Pattern.compile("[A-Za-z_][a-zA-Z0-9_-]*");
+        //Matcher matchId = p.matcher(ctx.getChild(2).getText());
         GetOperator go = new GetOperator(ctx.getChild(2).toString());
         this.env.setResultFunction(ctx.getText(), go);
     }
@@ -139,7 +157,7 @@ public class AntlrVTLListener extends VTLBaseListener {
         if(NumberUtils.isNumber(op1) && NumberUtils.isNumber(op2)) {
             SumScalarOperator sco = new SumScalarOperator(op1, op2);
             this.env.setOperand(String.valueOf(sco.performOperation()));
-            this.env.setResultFunction(ctx.getText(), sco);
+            //this.env.setResultFunction(ctx.getText(), sco);
         }
     }
 
@@ -322,8 +340,8 @@ public class AntlrVTLListener extends VTLBaseListener {
 
     @Override
     public void exitLengthScalarOperator(VTLParser.LengthScalarOperatorContext ctx) {
-        String op1 = this.env.getOperand();
-        if(op1 != null && op1.charAt(0)=='"' && op1.charAt(op1.length()-1)=='"'){
+        String op1 = this.env.getOperand().replaceAll("\"","");
+        if(op1 != null){
             LengthScalarOperator sco = new LengthScalarOperator(op1);
             this.env.setOperand(String.valueOf(sco.performOperation()));
             this.env.setResultFunction(ctx.getText(), sco);

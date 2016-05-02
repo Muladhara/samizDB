@@ -20,4 +20,9 @@ public class ModScalarOperator extends Function<Double> {
     public Double performOperation() {
         return Double.parseDouble(this.b) % Double.parseDouble(this.a);
     }
+
+    public String toString(){
+        return this.a + "&" + this.b;
+    }
+
 }

@@ -95,7 +95,7 @@ GET_TOKEN :                                                                     
 INTEGER_TOKEN:                                                                          [0-9]+;
 NUMERIC_TOKEN:                                                                          [0-9]+'.'[0-9]+ ;
 BOOL_TOKEN:                                                                             'true' | 'false' | 'TRUE' | 'FALSE';
-STRING_TOKEN:                                                                           '"'[A-Za-z0-9]+'"';
+STRING_TOKEN:                                                                           '"'[A-Za-z0-9_\ ]+'"';
 LIST_BOOL_TOKEN:                                                                        '[]' | '['BOOL_TOKEN(', 'BOOL_TOKEN)*']';
 LIST_INTEGER_TOKEN:                                                                     '[]' | '['INTEGER_TOKEN(', 'INTEGER_TOKEN)*']';
 LIST_NUMERIC_TOKEN:                                                                     '[]' | '['NUMERIC_TOKEN(', 'NUMERIC_TOKEN)*']';
@@ -167,7 +167,7 @@ DATASET_ID : ID | ID FIELD_SEP DATASET_ID | URL | MONGO_PATH | LINUX_PATH | WIND
 FIELD_SEP :                                                                             '/';
 URL:                                                                                    'http://www.'[0-9A-Za-z_-%\/\._-]+;
 MONGO_PATH:                                                                             [\/][A-Za-z0-9_-]+[\/]([A-Za-z0-9_-]+ [\/])*;
-LINUX_PATH:                                                                             [\/][A-Za-z0-9_-]*([\/][A-Za-z0-9_-]+ )* [A-Za-z0-9_-]+ '.json';
+LINUX_PATH:                                                                             ([\/])?[A-Za-z0-9_-]*([\/][A-Za-z0-9_-]+ )* [A-Za-z0-9_-]+ '.json';
 WINDOWS_PATH:                                                                           [A-Z]':'[\\]([A-Za-z0-9_-]+[\\])*[A-Za-z0-9_-]+ '.json';
 
 /*For hierarchy*/
